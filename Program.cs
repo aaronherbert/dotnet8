@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+//                    👇 7
+var lambda7 = (string message) => $"hello {message}";
+
+Console.WriteLine(lambda7("world"));
+
+//                    👇 8
+var lambda8 = (string message ="world") => $"hello {message}";
+
+Console.WriteLine(lambda8());
