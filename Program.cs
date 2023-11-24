@@ -1,2 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+ 
+
+using Rectangle  = (int X, int Y);
+var shape = new Rectangle(6, 9);
+
+//shape.Y;
+
